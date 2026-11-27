@@ -12,7 +12,7 @@ const carouselDots = [...document.querySelectorAll(".carousel-dot")];
 const carouselCount = document.querySelector(".carousel-count");
 let currentSlideIndex = 0;
 
-const whatsappNumber = "0982284705"; // Agrega el código de país y número, solo dígitos, cuando lo tengas.
+const whatsappNumber = "595982284705";
 
 menuButton.addEventListener("click", () => {
   const isExpanded = menuButton.getAttribute("aria-expanded") === "true";
