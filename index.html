@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15302b">
+  <meta name="description" content="M&M Fisio Spa: atención personalizada para cuidar tu salud física.">
+  <title>M&amp;M Fisio Spa </title>
+  <link rel="icon" type="image/jpeg" href="imagenes/Logo%20de%20M%26M%20Fisio%20Spa.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Hanken+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <aside class="travel-banner" aria-label="Aviso de viaje">
+    <div class="travel-banner-icon" aria-hidden="true">✈</div>
+    <div class="travel-banner-copy">
+      <strong>Comunicado de atención</strong>
+      <span>Informamos a nuestros clientes que permaneceremos cerrados por viaje desde el <b>28 de noviembre</b>.</span>
+      <span>Reanudaremos nuestras actividades y atención al público el <b>5 de diciembre</b>.</span>
+      <span>Agradecemos su comprensión y preferencia.</span>
+    </div>
+  </aside>
+
+  <header class="site-header">
+    <nav class="wrap" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">
+        <img class="brand-logo" src="imagenes/Logo%20de%20M%26M%20Fisio%20Spa.jpg" alt="">
+        <span>M&amp;M Fisio Spa</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#tratamientos">Tratamientos</a></li>
+        <li><a href="#proceso">Cómo trabajamos</a></li>
+        <li><a href="#terapeuta">Sobre Mi</a></li>
+        <li><a class="nav-cta" href="#reserva">Reservar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hero-brand">M&amp;M Fisio <span>Spa</span></p>
+          <svg class="cairn" viewBox="0 0 420 480" role="img" aria-label="Piedras apiladas en equilibrio">
+            <defs>
+              <linearGradient id="stone-one" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d3e2d9"/><stop offset="1" stop-color="#8fa89b"/></linearGradient>
+              <linearGradient id="stone-two" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b9cfc3"/><stop offset="1" stop-color="#6d8077"/></linearGradient>
+              <linearGradient id="stone-three" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9db5a8"/><stop offset="1" stop-color="#4f655c"/></linearGradient>
+              <radialGradient id="stone-glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#b9cfc3" stop-opacity=".22"/><stop offset="1" stop-color="#b9cfc3" stop-opacity="0"/></radialGradient>
+            </defs>
+            <circle cx="210" cy="230" r="210" fill="url(#stone-glow)"/>
+            <ellipse cx="210" cy="448" rx="150" ry="9" fill="#0c1b18" opacity=".55"/>
+            <ellipse class="stone s1" cx="210" cy="410" rx="138" ry="40" fill="url(#stone-three)" transform="rotate(-2 210 410)"/>
+            <ellipse class="stone s2" cx="214" cy="347" rx="108" ry="33" fill="url(#stone-two)" transform="rotate(3 214 347)"/>
+            <ellipse class="stone s3" cx="204" cy="291" rx="80" ry="27" fill="url(#stone-one)" transform="rotate(-4 204 291)"/>
+            <ellipse class="stone s4" cx="210" cy="245" rx="55" ry="21" fill="url(#stone-two)" transform="rotate(2 210 245)"/>
+            <ellipse class="stone s5" cx="208" cy="209" rx="33" ry="15" fill="url(#stone-one)" transform="rotate(-3 208 209)"/>
+          </svg>
+          <h1 class="hero-title"><span class="hero-title-word">Tu</span> <span class="hero-title-word">salud</span> <span class="hero-title-word">física</span> <span class="hero-title-word">en</span> <span class="hero-title-word">las</span> <span class="hero-title-word">mejores</span> <span class="hero-title-word">manos</span></h1>
+          <p class="lead">Antes de empezar, conversamos contigo. Conocemos tus necesidades y adaptamos cada sesión para que recibas una atención personal, no una rutina genérica.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#reserva">Reservar mi consulta</a>
+            <a class="link-quiet" href="#tratamientos">Ver tratamientos</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="intro-section" aria-labelledby="intro-title">
+      <div class="wrap intro">
+        <h2 id="intro-title">Una consultoría,<br>no solo un masaje</h2>
+        <div class="intro-copy">
+          <p class="big">Cada cuerpo es distinto. Tu sesión también debería serlo.</p>
+          <p>Antes de comenzar, hablamos sobre cómo te sientes, dónde notas tensión y qué te gustaría mejorar. Esa conversación nos ayuda a elegir la técnica, la presión y el ritmo adecuados para ti.</p>
+          <p>Trabajamos con atención y respeto en cada etapa, para que te sientas con confianza y puedas disfrutar un momento verdaderamente tuyo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="tratamientos" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="services-head">
+          <p class="eyebrow">ATENCIÓN PENSADA PARA TI</p>
+          <h2 id="services-title">Tratamientos</h2>
+          <p>Cada sesión comienza con una conversación para conocer tus necesidades y adaptar el tratamiento.</p>
+        </div>
+
+        <article class="svc">
+          <h3>Reductor Abdominal</h3>
+          <p>Masaje modelador enfocado en el abdomen con movimientos firmes y circulares para estimular la circulación, disolver adiposidades y estilizar la figura.</p>
+          <div class="meta"><strong>Gs. 800.000</strong>10 sesiones</div>
+        </article>
+        <article class="svc">
+          <h3>Masaje de reflexología</h3>
+          <p>Masaje especializado que trabaja zonas reflejas de los pies para favorecer la relajación y el bienestar general.</p>
+          <div class="meta"><strong>Gs. 60.000</strong>Por sesión</div>
+        </article>
+        <article class="svc">
+          <h3>Levantamiento de glúteos</h3>
+          <p>Masaje reafirmante y remodelante en los glúteos con maniobras específicas para estimular la circulación, mejorar la firmeza y realzar la silueta.</p>
+          <div class="meta"><strong>Gs. 500.000</strong>10 sesiones</div>
+        </article>
+        <article class="svc">
+          <h3>Tratamiento contra la celulitis</h3>
+          <p>Tratamiento focalizado para reducir la apariencia de la celulitis y mejorar la firmeza y textura de la piel mediante maniobras adaptadas a cada paciente.</p>
+          <div class="meta"><strong>Gs. 80.000</strong>Por sesión</div>
+        </article>
+        <article class="svc">
+          <h3>Masaje descontracturante</h3>
+          <p>Masaje terapéutico dirigido a disminuir contracturas y tensiones musculares con maniobras adaptadas a tu necesidad.</p>
+          <div class="meta"><strong>Gs. 100.000</strong>Por sesión</div>
+        </article>
+        <article class="svc">
+          <h3>Masaje deportivo</h3>
+          <p>Masaje específico para pantorrilla izquierda y derecha, y cuádriceps posterior y anterior, orientado a la recuperación y el rendimiento deportivo.</p>
+          <div class="meta"><strong>Gs. 50.000</strong>Por sesión</div>
+        </article>
+        <article class="svc">
+          <h3>Masaje relajante</h3>
+          <p>Masaje de ritmo tranquilo y maniobras suaves, pensado para favorecer la relajación y ofrecer un momento de descanso.</p>
+          <div class="meta"><strong>Gs. 80.000</strong>Por sesión</div>
+        </article>
+        <article class="svc">
+          <h3>Tratamiento de columna desviada (escoliosis)</h3>
+          <p>Atención especializada para trabajar la movilidad, la postura y la musculatura relacionada con desviaciones de columna.</p>
+          <div class="meta"><strong>Gs. 100.000</strong>Por sesión</div>
+        </article>
+        <article class="svc">
+          <h3>Recuperación de ACV</h3>
+          <p>Tratamiento de apoyo enfocado en recuperar movilidad, fuerza y funcionalidad, adaptado al proceso y las capacidades de cada paciente.</p>
+          <div class="meta"><strong>Gs. 120.000</strong>Por sesión</div>
+        </article>
+        <article class="svc">
+          <h3>Exfoliante de cuerpo completo</h3>
+          <p>Exfoliación corporal para retirar células superficiales y dejar la piel con una sensación suave y renovada, respetando su sensibilidad.</p>
+          <div class="meta"><strong>Gs. 80.000</strong>Por sesión</div>
+        </article>
+        <article class="svc">
+          <h3>Masajes de drenaje linfático</h3>
+          <p>Técnica manual suave y rítmica, adaptada a cada persona para favorecer la circulación linfática y favorecer la sensación de bienestar.</p>
+          <div class="meta"><strong>Gs. 120.000</strong>Por sesión</div>
+        </article>
+        <p class="price-note">Los precios y la cantidad de sesiones pueden ajustarse según la evaluación de cada paciente.</p>
+      </div>
+    </section>
+
+    <section class="equipment" aria-labelledby="equipment-title">
+      <div class="wrap">
+        <div class="equipment-heading">
+          <p class="eyebrow">TECNOLOGÍA Y EJERCICIO</p>
+          <h2 id="equipment-title">Herramientas que utilizamos</h2>
+        </div>
+        <div class="equipment-grid">
+          <article><h3>Lámpara infrarrojo</h3><p>Aplicación térmica para acompañar el cuidado y la recuperación.</p></article>
+          <article><h3>Pistola percutora</h3><p>Estimulación localizada de los tejidos y la musculatura.</p></article>
+          <article><h3>TENS</h3><p>Estimulación Eléctrica Nerviosa Transcutánea para apoyo terapéutico.</p></article>
+          <article><h3>Ultrasonido</h3><p>Tratamiento con ultrasonido adaptado a las necesidades de cada paciente.</p></article>
+          <article><h3>Fortalecimiento con gomas</h3><p>Ejercicios progresivos para mejorar fuerza, estabilidad y movilidad.</p></article>
+          <article><h3>Fisioterapia con pelota</h3><p>Ejercicios con pelota para trabajar equilibrio, movilidad y fortalecimiento.</p></article>
+        </div>
+        <aside class="formal-service" aria-label="Servicio formalizado">
+          <p class="eyebrow">SERVICIO FORMALIZADO</p>
+          <h3>Atención profesional con respaldo</h3>
+          <p>Contamos con ficha, sello profesional y factura para formalizar tu atención.</p>
+          <div class="formal-items"><span>Ficha</span><span>Sello profesional</span><span>Factura</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="process" id="proceso" aria-labelledby="process-title">
+      <div class="wrap">
+        <p class="eyebrow">UNA ATENCIÓN CON INTENCIÓN</p>
+        <h2 id="process-title">Así trabajamos, de la primera conversación al bienestar</h2>
+        <div class="steps">
+          <article class="step">
+            <h3>Conversamos</h3>
+            <p>Nos cuentas cómo te sientes, qué necesitas y qué esperas de la sesión.</p>
+          </article>
+          <article class="step">
+            <h3>Diseñamos</h3>
+            <p>Acordamos el tratamiento, la presión y el ritmo. Puedes pedir un ajuste en cualquier momento.</p>
+          </article>
+          <article class="step">
+            <h3>Te acompañamos</h3>
+            <p>Al terminar, compartimos sugerencias sencillas para que sigas cuidándote en casa.</p>
+          </article>
+        </div>
+        <div class="process-gallery" aria-labelledby="process-gallery-title">
+          <div class="process-gallery-heading">
+            <div>
+              <p class="eyebrow">UN VISTAZO A LAS SESIONES Y A LAS NOTICIAS</p>
+              <h3 id="process-gallery-title">Así es nuestro espacio</h3>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Ver foto anterior">
+                <span aria-hidden="true">←</span>
+              </button>
+              <button class="carousel-arrow" type="button" data-carousel-next aria-label="Ver foto siguiente">
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Carrusel de fotos --> 
+          <div class="process-carousel" aria-roledescription="carrusel" aria-label="Fotos de sesiones y del espacio de trabajo">
+            <figure class="process-slide" role="group" aria-roledescription="diapositiva" aria-label="1 de 4">
+              <button class="process-slide-image" type="button" aria-label="Ampliar foto: Atención cercana y personalizada">
+                <img src="fotos.js/WhatsApp%20Image%202026-10-31%20at%2009.02.35%20(1).jpeg" alt="Martín junto a una persona durante una sesión en el consultorio" loading="lazy" decoding="async">
+              </button>
+              <figcaption>Atención cercana y personalizada</figcaption>
+            </figure>
+            <figure class="process-slide" role="group" aria-roledescription="diapositiva" aria-label="2 de 4" hidden>
+              <button class="process-slide-image" type="button" aria-label="Ampliar foto: Movilidad y ejercicios adaptados">
+                <img src="fotos.js/WhatsApp%20Image%202026-10-31%20at%2009.02.35%20(2).jpeg" alt="Ejercicio de movilidad de la pierna con una pelota terapéutica" loading="lazy" decoding="async">
+              </button>
+              <figcaption>Movilidad y ejercicios adaptados</figcaption>
+            </figure>
+            <figure class="process-slide" role="group" aria-roledescription="diapositiva" aria-label="3 de 4" hidden>
+              <button class="process-slide-image" type="button" aria-label="Ampliar foto: Un espacio preparado para cada sesión">
+                <img src="fotos.js/WhatsApp%20Image%202026-10-31%20at%2009.02.35%20(3).jpeg" alt="Persona sentada en la camilla del consultorio" loading="lazy" decoding="async">
+              </button>
+              <figcaption>Un espacio preparado para cada sesión</figcaption>
+            </figure>
+            <figure class="process-slide" role="group" aria-roledescription="diapositiva" aria-label="4 de 4" hidden>
+              <button class="process-slide-image" type="button" aria-label="Ampliar foto: Recuperación y cuidado corporal">
+                <img src="fotos.js/WhatsApp%20Image%202026-10-31%20at%2009.02.35.jpeg" alt="Sesión de recuperación con lámpara de calor" loading="lazy" decoding="async">
+              </button>
+              <figcaption>Recuperación y cuidado corporal</figcaption>
+            </figure>
+          </div>
+          <div class="carousel-footer">
+            <div class="carousel-dots" aria-label="Elegir foto">
+              <button class="carousel-dot is-active" type="button" aria-label="Mostrar foto 1" aria-current="true"></button>
+              <button class="carousel-dot" type="button" aria-label="Mostrar foto 2"></button>
+              <button class="carousel-dot" type="button" aria-label="Mostrar foto 3"></button>
+              <button class="carousel-dot" type="button" aria-label="Mostrar foto 4"></button>
+            </div>
+            <span class="carousel-count" aria-live="polite">01 / 04</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Presentación del profesional -->
+    <section class="about-section" id="terapeuta" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="about">
+          <img class="portrait" src="imagenes/martin-ramon-burgos-gavilan.jpg" alt="Retrato de Martín Ramón Burgos Gavilán, profesional de masajes" loading="lazy">
+          <div class="about-copy">
+            <p class="eyebrow">SOBRE MI</p>
+            <h2 id="about-title">Martín Ramón<br>Burgos Gavilán</h2>
+            <p>¡Hola! Qué bueno saludarte. Soy Martín, masajista profesional. Mi formación incluye el título de técnico en masaje deportivo por la Escuela Nacional de Educación Física, así como la tecnicatura como masajista superior y profesional en Argentina (otorgada por la ACEMC).</p>
+            <p>Creo firmemente que cada cuerpo es único, por eso te brindo una atención cercana y a medida, cuidando cada detalle para que logres tus objetivos físicos y de relajación.</p>
+          </div>
+        </div>
+        <!-- este es el 3D -->
+    <div class="verificacion-section" style="margin: 50px 0; text-align: center;">
+  <div class="verificacion-container">
+    <p class="eyebrow">VERIFICACIÓN</p>
+    <h3 style="margin-bottom: 10px;">Documento de Identificación</h3>
+    <p class="verificacion-desc" style="color: #666; margin-bottom: 20px;">Haz clic en la tarjeta o en el botón para consultar el reverso del documento.</p>
+
+    <!-- Contenedor 3D (le agregamos onclick="girarCedula()" aquí a la tarjeta) -->
+    <div class="cedula-container" style="width: 340px; height: 215px; perspective: 1000px; margin: 0 auto 20px auto;">
+      <div class="cedula-card" id="cedulaCard" onclick="girarCedula()" style="width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1); border-radius: 12px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); cursor: pointer;">
+        <!-- Frente -->
+        <div class="cedula-face cedula-front" style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 12px; overflow: hidden;">
+          <img src="imagenes/Documento escaneado_page-0001.jpg" alt="Cédula de Identidad - Frente" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+        <!-- Dorso -->
+        <div class="cedula-face cedula-back" style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 12px; overflow: hidden; transform: rotateY(180deg);">
+          <img src="imagenes/Documento escaneado_page-0002.jpg" alt="Cédula de Identidad - Dorso" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+        <div class="certificates" aria-labelledby="certificates-title">
+          <div class="certificates-heading">
+            <p class="eyebrow">FORMACIÓN Y TRAYECTORIA</p>
+            <h2 id="certificates-title">Certificados</h2>
+        
+          </div>
+          <div class="certificate-grid">
+            <button class="certificate-card" type="button" data-image="imagenes/1_page-0001.jpg" data-title="Título de masajista superior">
+              <span class="certificate-image-wrap"><img src="imagenes/1_page-0001.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="certificate-info">
+                <span class="certificate-title">Masajista superior</span>
+                <span class="certificate-note">Asociación Civil de Esteticistas, Masajistas y Cosmetólogos</span>
+                <span class="certificate-action">Ver certificado ampliado <span aria-hidden="true">↗</span></span>
+              </span>
+            </button>
+            <button class="certificate-card" type="button" data-image="imagenes/2_page-0001.jpg" data-title="Título de masajista profesional">
+              <span class="certificate-image-wrap"><img src="imagenes/2_page-0001.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="certificate-info">
+                <span class="certificate-title">Masajista profesional</span>
+                <span class="certificate-note">Asociación Civil de Esteticistas, Masajistas y Cosmetólogos</span>
+                <span class="certificate-action">Ver certificado ampliado <span aria-hidden="true">↗</span></span>
+              </span>
+            </button>
+            <button class="certificate-card" type="button" data-image="imagenes/3_page-0001.jpg" data-title="Certificado de masaje sueco y descontracturante">
+              <span class="certificate-image-wrap"><img src="imagenes/3_page-0001.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="certificate-info">
+                <span class="certificate-title">Masaje sueco y descontracturante</span>
+                <span class="certificate-note">Certificado de formación profesional</span>
+                <span class="certificate-action">Ver certificado ampliado <span aria-hidden="true">↗</span></span>
+              </span>
+            </button>
+            <button class="certificate-card" type="button" data-image="imagenes/4_page-0001.jpg" data-title="Certificado de técnico en masaje deportivo">
+              <span class="certificate-image-wrap"><img src="imagenes/4_page-0001.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="certificate-info">
+                <span class="certificate-title">Técnico en masaje deportivo</span>
+                <span class="certificate-note">Escuela Nacional de Educación Física</span>
+                <span class="certificate-action">Ver certificado ampliado <span aria-hidden="true">↗</span></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="book" id="reserva" aria-labelledby="book-title">
+      <div class="wrap book-grid">
+        <div class="book-info">
+          <p class="eyebrow">ESTAMOS PARA AYUDARTE</p>
+          <h2 id="book-title">Reservá tu consulta</h2>
+          <p>Déjanos tus datos y te contactaremos por WhatsApp para coordinar tu consulta.</p>
+        </div>
+
+        <form id="booking-form">
+          <label>Nombre
+            <input name="nombre" autocomplete="name" required>
+          </label>
+          <label>Teléfono
+            <input name="telefono" type="tel" autocomplete="tel" required>
+          </label>
+          <button class="btn submit-btn" type="submit">
+            <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M16 3.2A12.6 12.6 0 0 0 5.2 22.3L3.5 28.5l6.3-1.6A12.6 12.6 0 1 0 16 3.2Zm0 22.9c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-3.7 1 .9-3.6-.2-.4A10.2 10.2 0 1 1 16 26.1Zm5.6-7.6c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.8-2.1-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.5 4.9.8.4 1.4.6 1.9.7.8.3 1.5.2 2 .1.6-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z"/>
+            </svg>
+            Contactarnos por WhatsApp
+          </button>
+          <p class="form-hint" id="form-status" role="status" aria-live="polite">El formulario abrirá WhatsApp con tu solicitud lista para enviar.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="location" id="ubicacion" aria-labelledby="location-title">
+      <div class="wrap">
+        <p class="eyebrow">CÓMO ENCONTRARNOS</p>
+        <h2 id="location-title">Te esperamos</h2>
+        <p class="location-intro">Aquí puedes encontrarnos. Te esperamos para tu próxima sesión.</p>
+        <div class="map-placeholder">
+          <iframe
+            class="location-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1543.6921894117645!2d-57.55065668536195!3d-25.237017100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da5be578152f1%3A0x9cabf0f3dcc9f8ea!2sM%26MfISIOSPA!5e1!3m2!1ses!2spy!4v1793104566395!5m2!1ses!2spy"
+            title="Ubicación de M&M Fisio Spa en Google Maps"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="social-section" aria-labelledby="social-title">
+      <div class="container">
+        <div class="row align-items-center justify-content-between g-4">
+          <div class="col-12 col-lg-6 social-copy">
+            <p class="eyebrow">SIGAMOS EN CONTACTO</p>
+            <h2 id="social-title">Encuéntranos en redes</h2>
+            <p>Pronto compartiremos novedades, consejos y momentos de bienestar. Síguenos en nuestras redes.</p>
+          </div>
+          <div class="col-12 col-lg-auto">
+            <div class="d-flex flex-wrap gap-3 social-links">
+              <a class="btn btn-outline-light btn-lg rounded-pill px-4" href="https://www.instagram.com/mm_fisio_spa/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram de M&M Fisio Spa">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle class="icon-dot" cx="18" cy="6" r="1"></circle></svg>
+                Instagram <span aria-hidden="true">↗</span>
+              </a>
+              <a class="btn btn-outline-light btn-lg rounded-pill px-4" href="https://www.facebook.com/share/19r3ZShH8e/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Facebook de M&M Fisio Spa">
+                <svg class="social-icon facebook-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-8h3l.5-4H14V7c0-1.2.4-2 2-2h1.7V1.4C17 1.2 15.8 1 14.5 1 11.2 1 9 3 9 6.7V9H6v4h3v8h5Z"></path></svg>
+                Facebook <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="certificate-dialog" id="certificate-dialog" aria-labelledby="certificate-dialog-title">
+    <div class="certificate-dialog-header">
+      <h2 id="certificate-dialog-title"></h2>
+      <button class="certificate-dialog-close" type="button" aria-label="Cerrar imagen ampliada">×</button>
+    </div>
+    <img class="certificate-dialog-image" id="certificate-dialog-image" alt="">
+  </dialog>
+
+  <footer>
+    <div class="wrap footer-content">
+      <a class="brand" href="#inicio">M&amp;M Fisio <span>Spa</span></a>
+      <span>[Nestor Romero Valdovinos y, Asunción ] · [0982284705]</span>
+      <span>© <span id="current-year"></span> M&amp;M Fisio Spa</span>
+    </div>
+  </footer>
+</body>
+</html>
